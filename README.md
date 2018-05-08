@@ -14,9 +14,9 @@ you can even make it follow a character by making it a child of the specific sce
 afterwards when you create a GIF out of the frames you recorded (this is the particular reason I created this node).
 
 To record the frames, while playing the project:
-1- Press "R" to start recording the frames.
-2- Press "R" to stop recording the frames.
-3- Press "S" to save the recorded frames on the 'out/' folder (it'll be created if it doesn't exist) inside your projects folder.
+1. Press "R" to start recording the frames.
+2. Press "R" to stop recording the frames.
+3. Press "S" to save the recorded frames on the 'out/' folder (it'll be created if it doesn't exist) inside your projects folder.
 
 ## Script variables and constants
 - Frames per second: the number of frames it will save on each second.
