@@ -11,7 +11,12 @@ config_version=3
 [application]
 
 config/name="Godot Recorder Addon"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "Recorder" )
 
 [rendering]
 
