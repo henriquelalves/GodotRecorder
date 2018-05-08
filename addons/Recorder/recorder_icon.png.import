@@ -7,10 +7,10 @@ path="res://.import/recorder_icon.png-f0f8faef236797ece06f7d40a8a1295d.stex"
 [deps]
 
 source_file="res://addons/Recorder/recorder_icon.png"
-source_md5="965ce8c98495a6a5718cb880b29007de"
+source_md5="ca1b1b596104a523b626a9ab87133a47"
 
 dest_files=[ "res://.import/recorder_icon.png-f0f8faef236797ece06f7d40a8a1295d.stex" ]
-dest_md5="c3ce174c09c05d2b995ec2933e6b0599"
+dest_md5="20bd9c68fa5e230da8f73e307510f81c"
 
 [params]
 

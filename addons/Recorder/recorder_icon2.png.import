@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/058.png-4cf61c95192cf1896fba73de209cd9bc.stex"
+path="res://.import/recorder_icon2.png-29ed9c7347626c91042a6be1537482f1.stex"
 
 [deps]
 
-source_file="res://out/058.png"
-source_md5="88c5072cceb1d9417a3ce8714052c64e"
+source_file="res://addons/Recorder/recorder_icon2.png"
+source_md5="0118c2555964c0140d7440beed20e1e1"
 
-dest_files=[ "res://.import/058.png-4cf61c95192cf1896fba73de209cd9bc.stex" ]
-dest_md5="f5bab59ab126215d805c57a6327122be"
+dest_files=[ "res://.import/recorder_icon2.png-29ed9c7347626c91042a6be1537482f1.stex" ]
+dest_md5="0d10d3e4bf9fbdb2a66500efc9afba1f"
 
 [params]
 

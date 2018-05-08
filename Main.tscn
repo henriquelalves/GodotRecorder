@@ -3,7 +3,7 @@
 [ext_resource path="res://sample.png" type="Texture" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" index="0"]
 
 [node name="Background" type="TextureRect" parent="." index="0"]
 
