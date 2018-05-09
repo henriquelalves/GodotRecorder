@@ -53,7 +53,7 @@ I created this addon so I could have an in-engine option to create my GIFs - you
 
 Thanks for the guys at mastodon.gamedev.place for the tips!
 
-## Why creating GIFs for my games are important?
+## Why creating GIFs for my games is important?
 
 https://www.gamasutra.com/blogs/BundyKim/20160707/276365/Marketing_in_Motion_A_Year_of_Making_Gifs.php
 https://www.gamasutra.com/blogs/MattMirrorfish/20160105/263028/Promoting_Your_Game_With_Animated_GIFs.php
