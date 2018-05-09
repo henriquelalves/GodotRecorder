@@ -15,7 +15,7 @@ export(bool) var use_thread = false # so the game wont freeze while the frames a
 onready var _frametick = 1.0/frames_per_second
 onready var _images = []
 onready var _running = false
-onready var _viewport = get_tree().root
+onready var _viewport = get_viewport()
 onready var _label = Label.new()
 
 onready var _thread = Thread.new()
@@ -65,8 +65,7 @@ func _process(delta):
 			# Get the recorder frame section out of it
 			var pos = get_global_transform_with_canvas().origin
 			var rect = Rect2(Vector2(pos.x,_viewport.size.y - (pos.y + get_rect().size.y)), get_rect().size)
-			print(rect)
-			image.blit_rect(image, rect, Vector2(0,image.get_height() - rect.size.y))
+			image.blit_rect(image, rect, Vector2(0,0))
 			_images.append(image)
 
 func save_frames(userdata):
@@ -81,9 +80,9 @@ func save_frames(userdata):
 	for image in _images:
 		print("saving")
 		_label.text = "Saving frames...("+str(i) + "/"+str(_images.size())+")"
+		image.crop(self.get_rect().size.x, self.get_rect().size.y)
 		if (flip_y):
 			image.flip_y()
-		image.crop(self.get_rect().size.x, self.get_rect().size.y)
 		image.save_png("res://" + str(output_folder) + "/" + "%03d" % i + ".png")
 		i+=1
 	_label.text = "Done! Check the "+output_folder+" folder on your project."
